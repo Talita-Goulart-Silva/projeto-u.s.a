@@ -1,0 +1,9 @@
+.section_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    white-space: 90%;
+    max-width: 960px;
+    padding: 20px 60px 20px; 
+    align-items: center;
+   

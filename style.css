@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(blue, red, black);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+    background-image: linear-gradient(red, black, blue);
+}
+
+.titulo_usa {
+    margin-left: 5%;
+    color: #ea0f0f;
+    font-size: 25px;
+
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 60px;
+    margin-top: 30px;
+
+}
+
+.menu li {
+    padding: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    display: flex;
+    margin: 10px;
+
+}
+
+.menu a {
+    color: #f30909;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.menu a:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+.rodape {
+    background-image: linear-gradient(red, black);
+    color: white;
+    text-align: center;
+}
+
+.section_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 4rem;
+}
+
+.imagens_main{
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+}
+
+
+.imagens_main{
+    box-shadow: 0 0 3px #000;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+
+.imagens_main:hover{
+    box-shadow: 4px 6px 3px #000;
+    
+}
+.imagens_main{
+    transition: all 0.5s ease;
+    filter: grayscale(0);
+}
+
+.imagens_main:hover{
+filter: grayscale(1);
+}
